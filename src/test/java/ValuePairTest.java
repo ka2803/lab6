@@ -1,19 +1,19 @@
-import core.KeyValuePair;
+import core.ValuePair;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class KeyValuePairTest {
-    KeyValuePair<String> KVP1;
-    KeyValuePair<String> KVP2;
+public class ValuePairTest {
+    ValuePair<String> KVP1;
+    ValuePair<String> KVP2;
     String FirstTest1=" ";
     String FirstTest2="FIRST";
     String SecondTest1=" ";
     String SecondTest2="Second";
     @Before
     public void Initialize(){
-        KVP1=new KeyValuePair<>(FirstTest1,SecondTest1);
-        KVP2=new KeyValuePair<>(FirstTest2,SecondTest2);
+        KVP1=new ValuePair<>(FirstTest1,SecondTest1);
+        KVP2=new ValuePair<>(FirstTest2,SecondTest2);
     }
     @Test
     public void getFirstTest(){

@@ -1,8 +1,5 @@
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
-
-import java.io.FileNotFoundException;
 
 public class MainTest {
     private final String emptyFile="empty.txt";
@@ -12,7 +9,7 @@ public class MainTest {
 
     @Test
     public void testFiles(){
-        LongestCompoundWord alg = new LongestCompoundWord();
+        Main alg = new Main();
         alg.doAlgorithm(emptyFile);
         alg.doAlgorithm(emptyFilePath);
         alg.doAlgorithm(smallFile);
@@ -20,18 +17,11 @@ public class MainTest {
     }
     @Test
     public void testAlgotithm(){
-        LongestCompoundWord alg = new LongestCompoundWord();
+        Main alg = new Main();
         alg.doAlgorithm(emptyFile);
         Assert.assertEquals(0,alg.maxLength);
         alg.doAlgorithm(smallFile);
         Assert.assertEquals(3,alg.count);
     }
-//    @Test
-//    public void bytesTest(){
-//
-//    }
-//    @Test
-//    public void nanoSecsTest(){
-//
-//    }
+
 }

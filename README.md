@@ -1,0 +1,4 @@
+[![Build Status](https://travis-ci.org/ka2803/lab6.svg?branch=master)](https://travis-ci.org/ka2803/lab6)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e89b6b8a98374beea6574450dc71c91b)](https://www.codacy.com/app/ka2803/lab6?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ka2803/lab6&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/e89b6b8a98374beea6574450dc71c91b)](https://www.codacy.com/app/ka2803/lab6?utm_source=github.com&utm_medium=referral&utm_content=ka2803/lab6&utm_campaign=Badge_Coverage)
+[![codecov](https://codecov.io/gh/ka2803/lab6/branch/master/graph/badge.svg)](https://codecov.io/gh/ka2803/lab6)
